@@ -6,7 +6,7 @@ import pyautogui
 
 
 flower_list = ['flower4']
-chest_list = ['chest4']
+chest_list = ['chest5', 'chest6']
 collected_flowers = []
 previous_flower=None
 
@@ -49,7 +49,7 @@ while 1:
                     pyautogui.moveTo(previous_flower)
                     pyautogui.click()
                     #print('clicked previous')
-                    pyautogui.move(0, 40)
+                    pyautogui.move(50, 50)
             previous_flower=flower
 
 
